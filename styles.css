@@ -1,0 +1,97 @@
+header
+{
+	background-color: #63B3ED;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	grid-column: 1 / 3;
+	grid-row: 1;
+}
+p
+{
+	font-size: 18px;
+	font-family: Arial;
+	color: #2D3748;
+}
+img[src="me.jpeg"]  
+{
+	border-radius: 50%;
+}
+img[src="Wall-e.jpg"] 
+{
+	float: right;
+}
+img[src="music.jpg"] 
+{
+	float: right;
+}
+h1
+{
+	font-size: 36px;
+	font-family: Times New Roman;
+}
+h2
+{
+	font-size: 32px;
+	color: #48BB78;
+}
+a
+{
+	color: #4299E1;
+}
+a.mini-head
+{
+	color: #718096;
+	font-size: 18px;
+	font-family: Helvetica Neue;
+}
+h3
+{
+	 color: #48BB78;
+	 font-family: Georgia;
+}
+div#about,
+h3#about
+{
+	color: #000000;
+	background-color: #E2E8F0;
+}
+div#about
+{
+	padding: 20px;
+
+}
+footer
+{
+	background-color: #2C5282;
+	color: #FFFFFF;
+	grid-column: 1 / 3;
+	grid-row: 4;
+}
+p#foot
+{
+	color: #FFFFFF;
+}
+ul
+{
+	color: #4299E1;
+}
+div#container
+{
+	display: grid;
+	grid-template-columns: 66% 33%;
+	grid-template-rows: 400px 750px 600px 50px;
+	grid-gap: 20px;
+}
+main
+{
+	grid-column: 1;
+	grid-row: 2/3;
+}
+aside
+{
+	grid-column: 2;
+	grid-row: 2/3;
+}
